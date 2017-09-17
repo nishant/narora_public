@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-titles {
+    text-align: center;
+    font-size: 100pt;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+#intro-titles {
+    padding: 200px 0px 125px 0px ;
+}
+
+.sub {
+    font-size: 40pt;
+}
+
+a{
+    transition: all 0.5s ease;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration:none;
+}
+
+a:hover {
+    color: white;
+}
+
+nav {
+    font-family: 'Raleway';
+    white-space: nowrap;
+    border-bottom: thin solid transparent;
+    transition: all 0.5s ease;
+    font-weight: 500;
+    height:100px;
+    background-color: red   ;
+    width:100%;
+}
+nav ul {
+    max-width:850px;
+    margin:0 auto;
+}
+nav li {
+    transition: all 0.5s ease;
+    display:inline-block;
+    margin: 2.5em 4.5em;
+    list-style:none;
+}
+
+#intro {
+    height : 825px;
+}
+
+#subtitles {
+    position:relative;
+    margin-top: 50px;
+}
+
+.not-visible {
+    display : none;
+}
+
+
+
+nav a {
+    cursor: pointer;
+}
+
+#portfolio p {
+    text-align: center;
+}
+
+#contact p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14pt;
+
+}
+
+#contact {
+    background: black;
+    color:white;
+}
+
+#contact a{
+    color: #91BED4
+}
+
+#contact a:hover{
+    color:#F26101
+}
