@@ -1,3 +1,4 @@
-narora.xyz - Contains HTML and CSS code for the homepage of my personal website.
+## narora.xyz ##
+Contains HTML and CSS code for the homepage of my personal website.
 
-![alt tag](https://ibb.co/h6cHR5)
+![homepage](screenshots/homepage.png "Homepage of narora.xyz")
