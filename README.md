@@ -6,3 +6,7 @@ Genmake is a program that searches the source code directory tree and creates/up
 
 ### narora.xyz ###
 Contains HTML and CSS code for the homepage of my personal website.
+
+### simpleshell ###
+A simple shell in C that supports boolean operations, pipes, and file redirection.
+Implemented functionality of basic UNIX commands (ls, cd, mkdir, pwd, etc.) 
