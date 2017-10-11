@@ -1,0 +1,40 @@
+2015-02, 2016-03
+
+2015-04-22, impressions, 238
+2016-12-23, impressions, 492
+2015-10-31, follows, 898
+2016-03-19, impressions, 388
+2015-10-14, app_installs, 335
+2016-08-05, impressions, 120
+2015-02-05, favorites, 616
+2016-12-06, follows, 459
+2015-12-31, follows, 388
+2016-02-24, impressions, 155
+2015-06-08, favorites, 876
+2016-04-24, app_installs, 639
+2015-05-16, app_installs, 875
+2016-03-06, retweets, 938
+2015-03-25, follows, 590
+2016-10-09, favorites, 729
+2015-01-21, impressions, 568
+2016-06-24, clicks, 95
+2015-11-07, app_installs, 513
+2016-11-08, clicks, 379
+2015-12-30, retweets, 346
+2016-10-27, clicks, 245
+2015-04-04, follows, 948
+2016-03-15, clicks, 919
+2015-07-21, clicks, 612
+2016-04-08, clicks, 628
+2015-05-07, clicks, 781
+2016-10-01, app_installs, 445
+2015-04-17, app_installs, 3
+2016-01-11, retweets, 395
+2015-10-19, impressions, 767
+2016-01-03, clicks, 192
+2015-07-07, impressions, 625
+2016-04-02, favorites, 775
+2015-11-29, impressions, 992
+2016-04-03, impressions, 775
+2015-12-15, follows, 607
+2016-06-21, {-truncated-}

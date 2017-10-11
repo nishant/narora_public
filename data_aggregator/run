@@ -1,0 +1,2 @@
+#!/usr/bin/ruby
+exec('ruby data_aggregator.rb < small_input.txt > out.txt && cat out.txt')
