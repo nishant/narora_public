@@ -108,7 +108,7 @@ Sample Output (small_output.txt):
  engagement type where the total is greater than 0, ordered alphabetically by
  the type of engagement.
 * Each field on a given line must be separated by a single comma
- character ',' followed by a single space character ' '.
+ character ',' followed by a single space character.
 
 * There are larger sample input and output files to test with as well.
 
