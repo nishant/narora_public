@@ -57,12 +57,10 @@ Run executable
 
 ## Notes
 Sample Input (small_input.txt):
+
 2015-08, 2016-04
-
 2015-08-15, clicks, 635
-
 2016-03-24, app_installs, 683
-
 2015-04-05, favorites, 763
 
 2016-01-22, favorites, 788
