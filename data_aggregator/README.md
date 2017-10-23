@@ -100,21 +100,14 @@ Sample Output (small_output.txt):
 
 2015-08, clicks, 635
 
-* The output consists of a line for each month in the requested interval,
- separated by a single newline character '\n' in order of most recent date to
- earliest date.
+* The output consists of a line for each month in the requested interval, separated by a single newline character '\n' in order of most recent date to earliest date.
 * Do not include months where there was no engagement data found.
-* Each line consists of a month date (yyyy-mm), and the totals for each
- engagement type where the total is greater than 0, ordered alphabetically by
- the type of engagement.
-* Each field on a given line must be separated by a single comma
- character ',' followed by a single space character.
+* Each line consists of a month date (yyyy-mm), and the totals for each engagement type where the total is greater than 0, ordered alphabetically by the type of engagement.
+* Each field on a given line must be separated by a single comma character ',' followed by a single space character.
+
 
 * There are larger sample input and output files to test with as well.
-
-* Problem correctness, time, and space complexity has been taken under
-consideration.
-
+* Problem correctness, time, and space complexity has been taken under consideration.
 * This solution works for both small and large inputs.
 
 ## Built With
