@@ -10,7 +10,7 @@ impressions, clicks, favorites, and retweets. The purpose of the task is to
 aggregate the data by month and engagement category for the requested
 time interval.
 
-See *Files* and *Notes* for more information.
+See **Files** and **Notes** for more information.
 
 
 ## Getting Started
@@ -48,12 +48,12 @@ Run executable
 ```
 
 ## Files
--data_aggregator.rb : contains the implementation
--small_input.txt : sample input for testing
--small_output.txt : sample output for testing
--large_input.txt : more extensive sample input for testing
--run : used to execute program
--out.txt : program output is written to this file
+* data_aggregator.rb : contains the implementation
+* small_input.txt : sample input for testing
+* small_output.txt : sample output for testing
+* large_input.txt : more extensive sample input for testing
+* run : used to execute program
+* out.txt : program output is written to this file
 
 ## Notes
 Sample Input (small_input.txt):
@@ -70,16 +70,13 @@ Sample Input (small_input.txt):
 2015-11-07, impressions, 245
 2016-10-16, impressions, 567
 
--Each line is terminated by a single newline character ' \n'.
--The first line represents the start and end of the requested date interval.
--The start and end dates are separated by a single comma character ',' and zero
- or more space characters ' '.
--The second line is empty.
--The third line and onwards represent the time series data points.
--Each line represents a single data point, consisting of a date, engagement
- type, and number of engagements. The fields on each line are also separated by
- commas and optional spaces.
--Input dates are not expected to be in order.
+* Each line is terminated by a single newline character ' \n'.
+* The first line represents the start and end of the requested date interval.
+* The start and end dates are separated by a single comma character ',' and zero or more space characters ' '.
+* The second line is empty.
+* The third line and onwards represent the time series data points.
+* Each line represents a single data point, consisting of a date, engagement type, and number of engagements. The fields on each line are also separated by commas and optional spaces.
+* Input dates are not expected to be in order.
 
 Sample Output (small_output.txt):
 2016-03, app_installs, 683
@@ -88,22 +85,22 @@ Sample Output (small_output.txt):
 2015-11, impressions, 245
 2015-08, clicks, 635
 
--The output consists of a line for each month in the requested interval,
+* The output consists of a line for each month in the requested interval,
  separated by a single newline character '\n' in order of most recent date to
  earliest date.
--Do not include months where there was no engagement data found.
--Each line consists of a month date (yyyy-mm), and the totals for each
+* Do not include months where there was no engagement data found.
+* Each line consists of a month date (yyyy-mm), and the totals for each
  engagement type where the total is greater than 0, ordered alphabetically by
  the type of engagement.
--Each field on a given line must be separated by a single comma
+* Each field on a given line must be separated by a single comma
  character ',' followed by a single space character ".
 
-There are larger sample input and output files to test with as well.
+* There are larger sample input and output files to test with as well.
 
-Problem correctness, time, and space complexity has been taken under
+* Problem correctness, time, and space complexity has been taken under
 consideration.
 
-This solution works for both small and large inputs.
+* This solution works for both small and large inputs.
 
 ## Built With
 
