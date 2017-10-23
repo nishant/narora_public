@@ -80,6 +80,7 @@ Sample Input (small_input.txt):
 
 2016-10-16, impressions, 567
 
+
 * Each line is terminated by a single newline character ' \n'.
 * The first line represents the start and end of the requested date interval.
 * The start and end dates are separated by a single comma character ',' and zero or more space characters ' '.
@@ -99,6 +100,7 @@ Sample Output (small_output.txt):
 2015-11, impressions, 245
 
 2015-08, clicks, 635
+
 
 * The output consists of a line for each month in the requested interval, separated by a single newline character '\n' in order of most recent date to earliest date.
 * Do not include months where there was no engagement data found.
