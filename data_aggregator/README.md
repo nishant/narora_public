@@ -79,6 +79,7 @@ Sample Input (small_input.txt):
 * Input dates are not expected to be in order.
 
 Sample Output (small_output.txt):
+
 2016-03, app_installs, 683
 2016-01, favorites, 788
 2015-12, app_installs, 982, clicks, 525
