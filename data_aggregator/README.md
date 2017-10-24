@@ -61,23 +61,15 @@ Sample Input (small_input.txt):
 
 2015-08, 2016-04<br>
 2015-08-15, clicks, 635<br>
-2016-03-24, app_installs, 683
-
-2015-04-05, favorites, 763
-
-2016-01-22, favorites, 788
-
-2015-12-26, clicks, 525
-
-2016-06-03, retweets, 101
-
-2015-12-02, app_installs, 982
-
-2016-09-17, app_installs, 770
-
-2015-11-07, impressions, 245
-
-2016-10-16, impressions, 567
+2016-03-24, app_installs, 683<br>
+2015-04-05, favorites, 763<br>
+2016-01-22, favorites, 788<br>
+2015-12-26, clicks, 525<br>
+2016-06-03, retweets, 101<br>
+2015-12-02, app_installs, 982<br>
+2016-09-17, app_installs, 770<br>
+2015-11-07, impressions, 245<br>
+2016-10-16, impressions, 567<br>
 
 
 * Each line is terminated by a single newline character ' \n'.
@@ -92,16 +84,11 @@ Sample Input (small_input.txt):
 ### About the Output
 
 Sample Output (small_output.txt):
-
-2016-03, app_installs, 683
-
-2016-01, favorites, 788
-
-2015-12, app_installs, 982, clicks, 525
-
-2015-11, impressions, 245
-
-2015-08, clicks, 635
+2016-03, app_installs, 683<br>
+2016-01, favorites, 788<br>
+2015-12, app_installs, 982, clicks, 525<br>
+2015-11, impressions, 245<br>
+2015-08, clicks, 635<br>
 
 
 * The output consists of a line for each month in the requested interval, separated by a single newline character '\n' in order of most recent date to earliest date.
