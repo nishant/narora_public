@@ -19,10 +19,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 Knowledge about the following technologies is necessary to understand the implementation.
-```
-Ruby 2.3
-Regular Expressions
-```
+
+1. Ruby 2.3
+2. Regular Expressions
+
 
 ### Installing
 
@@ -37,9 +37,9 @@ git clone git@github.com:nishant217/narora_public.git
 
 ### Deployment
 
-Navigate to cloned directory
+Navigate to this project in the cloned directory
 ```
-cd [directoty-path]
+cd [directoty-path]/data_aggregator
 ```
 
 Run executable
@@ -56,6 +56,9 @@ Run executable
 * out.txt : program output is written to this file
 
 ## Notes
+
+### About the Input
+
 Sample Input (small_input.txt):
 
 2015-08, 2016-04
@@ -89,6 +92,9 @@ Sample Input (small_input.txt):
 * Each line represents a single data point, consisting of a date, engagement type, and number of engagements. The fields on each line are also separated by commas and optional spaces.
 * Input dates are not expected to be in order.
 
+
+### About the Output
+
 Sample Output (small_output.txt):
 
 2016-03, app_installs, 683
@@ -107,10 +113,12 @@ Sample Output (small_output.txt):
 * Each line consists of a month date (yyyy-mm), and the totals for each engagement type where the total is greater than 0, ordered alphabetically by the type of engagement.
 * Each field on a given line must be separated by a single comma character ',' followed by a single space character.
 
+### Other
 
 * There are larger sample input and output files to test with as well.
 * Problem correctness, time, and space complexity has been taken under consideration.
 * This solution works for both small and large inputs.
+
 
 ## Built With
 
