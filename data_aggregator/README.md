@@ -15,7 +15,7 @@ See **Files** and **Notes** for more information.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a local machine.
 
 ### Prerequisites
 Knowledge about the following technologies is necessary to understand the implementation.
@@ -26,12 +26,10 @@ Knowledge about the following technologies is necessary to understand the implem
 
 ### Installing
 
-Clone this repository for local access
+Clone this repository for local access via either command:
 ```
 git clone https://github.com/nishant217/narora_public.git
-```
-or
-```
+
 git clone git@github.com:nishant217/narora_public.git
 ```
 
