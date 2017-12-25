@@ -1,0 +1,66 @@
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Start test public:0:assign1.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Test public:0:assign1 is successful.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: End test public:0:assign1.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Start test public:1:assign-exp.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Test public:1:assign-exp is successful.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: End test public:1:assign-exp.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Start test public:2:define1.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Test public:2:define1 is successful.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: End test public:2:define1.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Start test public:3:equal.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Test public:3:equal is successful.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: End test public:3:equal.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Start test public:4:exp1.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Test public:4:exp1 is successful.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: End test public:4:exp1.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Start test public:5:exp2.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Test public:5:exp2 is successful.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: End test public:5:exp2.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Start test public:6:greater.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Test public:6:greater is successful.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: End test public:6:greater.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Start test public:7:if.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Test public:7:if is successful.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: End test public:7:if.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Start test public:8:ifelse.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Test public:8:ifelse is successful.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: End test public:8:ifelse.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Start test public:9:if-else-while.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Test public:9:if-else-while is successful.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: End test public:9:if-else-while.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Start test public:10:less.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Test public:10:less is successful.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: End test public:10:less.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Start test public:11:main.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Test public:11:main is successful.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: End test public:11:main.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Start test public:12:nested-if.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Test public:12:nested-if is successful.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: End test public:12:nested-if.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Start test public:13:nested-ifelse.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Test public:13:nested-ifelse is successful.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: End test public:13:nested-ifelse.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Start test public:14:nested-while.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Test public:14:nested-while is successful.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: End test public:14:nested-while.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Start test public:15:print.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Test public:15:print is successful.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: End test public:15:print.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Start test public:16:test1.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Test public:16:test1 is successful.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: End test public:16:test1.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Start test public:17:test2.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Test public:17:test2 is successful.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: End test public:17:test2.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Start test public:18:test3.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Test public:18:test3 is successful.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: End test public:18:test3.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Start test public:19:test4.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Test public:19:test4 is successful.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: End test public:19:test4.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Start test public:20:test-assoc1.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Test public:20:test-assoc1 is successful.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: End test public:20:test-assoc1.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Start test public:21:while.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: Test public:21:while is successful.
+2017-11-08T01:15:06+00:00 grace1.umd.edu#01 I: End test public:21:while.
