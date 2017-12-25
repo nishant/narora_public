@@ -1,0 +1,341 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: rgb(31, 29, 44);
+    font-family: monospace;
+    outline: none;
+}
+
+.main {
+    margin-top: 2.5%;
+    position: absolute;
+    left: 35%;
+    top: 39%;
+    transform: translateY(-33%) translateX(-33%);
+}
+
+.container {
+    color: #ABB2BE;
+    font-size: 1.5em;
+    line-height: 1.2;
+}
+
+.func {
+    color: rgb(216, 80, 221);
+}
+
+.str {
+    color: rgb(218, 121, 12);
+}
+
+a {
+    color: #53B6C1;
+}
+
+.const {
+    color: rgb(0, 225, 255);
+}
+
+.symbol {
+    color: white;
+}
+
+.comment {
+    color: rgb(20, 134, 16);
+    font-style: italic;
+}
+
+.func_name {
+    color: rgb(255, 243, 137);
+}
+
+.soon {
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 850px) {
+    .container {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .container {
+        font-size: .8em;
+    }
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400);
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    position: relative;
+}
+
+ul {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+img {
+    display: block;
+    margin-top: -50px;
+    position: relative;
+}
+
+.menu_item {
+    -webkit-text-stroke: 0.4pt black;
+}
+
+nav .menu_item {
+    font: 400 1rem/60px 'Tahoma';
+    color: cyan;
+    display: inline-block;
+    height: 60px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+}
+
+a:hover span {
+    top: -100%;
+}
+
+a span {
+    display: block;
+    height: 100%;
+    position: relative;
+    top: 0%;
+    transition: top 0.45s cubic-bezier(0.3, 0.1, 0.15, 1.5);
+}
+
+a #left {
+    color: red;
+}
+
+a #left2 {
+    color: white;
+}
+
+a #right {
+    color: black;
+}
+
+a #right2 {
+    color: gold;
+}
+
+.bottom-border {
+    height: 8px;
+    border-top: 1px solid black;
+    background-color: red;
+    filter: progid: DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr=red, endColorstr=white);
+    background-image: -moz-linear-gradient(right bottom, red 0%, white 11%, black 22%, gold 33%, red 44%, white 55%, black 66%, gold 77%, red 88%, white 99%);
+    background-image: linear-gradient(right bottom, red 0%, white 11%, black 22%, gold 33%, red 44%, white 55%, black 66%, gold 77%, red 88%, white 99%);
+    background-image: -webkit-linear-gradient(right bottom, red 0%, white 11%, black 22%, gold 33%, red 44%, white 55%, black 66%, gold 77%, red 88%, white 99%);
+    background-image: -o-linear-gradient(right bottom, red 0%, white 11%, black 22%, gold 33%, red 44%, white 55%, black 66%, gold 77%, red 88%, white 99%);
+    background-image: -ms-linear-gradient(right bottom, red 0%, white 11%, black 22%, gold 33%, red 44%, white 55%, black 66%, gold 77%, red 88%, white 99%);
+    background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0%, red), color-stop(11%, white), color-stop(22%, black), color-stop(33%, gold), color-stop(44%, red), color-stop(55%, white), color-stop(66%, black), color-stop(77%, gold), color-stop(88%, red), color-stop(99%, white));
+}
+
+.center {
+    padding-left: 20pt;
+}
+
+nav .menu_item:hover {
+    background-color: rgb(91, 162, 255)
+}
+
+.center-btn {
+    text-align:center;
+    margin:auto;
+}
+
+.outline-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1) inset;
+    border: none;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1) inset;
+    background: none;
+    padding: 1rem 3rem;
+    position: relative;
+    cursor: pointer;
+    font-size: 10pt;
+    overflow: hidden;
+    color: white;
+    
+}
+
+.outline-button:hover .outline-button__line {
+    -webkit-transform: none;
+    transform: none;
+}
+
+.outline-button__lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.outline-button__line {
+    background: white;
+    position: absolute;
+    transition: -webkit-transform 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+    transition: transform 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+    transition: transform 0.6s cubic-bezier(0.86, 0, 0.07, 1), -webkit-transform 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+    -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.outline-button__line--horizontal {
+    width: 100%;
+    height: 2px;
+    -webkit-transition-delay: 0.2727272727s;
+    transition-delay: 0.2727272727s;
+}
+
+.outline-button__line--vertical {
+    width: 2px;
+    height: 100%;
+    -webkit-transition-delay: none;
+    transition-delay: none;
+}
+
+.outline-button__line--top {
+    top: 0;
+    left: 0;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+
+.outline-button__line--right {
+    top: 0;
+    right: 0;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+
+.outline-button__line--bottom {
+    bottom: 0;
+    left: 0;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+}
+
+.outline-button__line--left {
+    top: 0;
+    left: 0;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
+/* .topnav {
+    font-family:Verdana;
+    overflow: hidden;
+    background-color: red;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.topnav a:hover {
+    background-color: rgb(218, 218, 218);
+    color: black;
+}
+
+.active {
+    color: black;
+}
+
+.topnav .icon {
+    display: none;
+} */
+
+
+#skills {
+    padding-left: 5%;
+    width: 45%;
+    float:left;
+}
+
+#skills span {
+    top: -30px;
+    left: 2%;
+    position: relative;
+    font-size: 1.4em;
+    font-weight: bolder;
+    font-family: monospace;
+    color: #fff;
+    max-width: 50%;
+}
+
+#technologies {
+    padding-right: 5%;
+    width: 45%;
+    float: right;
+}
+
+#technologies span {
+    top: -30px;
+    left: 2%;
+    position: relative;
+    font-size: 1.4em;
+    font-weight: bolder;
+    font-family: monospace;
+    color: #fff;
+    max-width: 50%;
+}
+
+/* #skills #technologies {
+    display:inline-block;
+} */
+progress {
+    background-color: #f3f3f3;
+    border: 0;
+    height: 2.5em;
+    width: 100%;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #e0eaf0;
+}
+
+progress::-webkit-progress-value {
+    background-color: #329ad1;
+}
+
+progress::-moz-progress-bar {
+    background-color: #329ad1;
+}
+
+.title {
+    color: rgb(240, 255, 144);
+}
