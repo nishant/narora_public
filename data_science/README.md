@@ -1,3 +1,6 @@
+## Projects Available Online @ ##
+https://nishant.github.io/index.html
+
 ### Data Scraping and Cleaning ###
 This project involves:
 Scraping and preparing each of two datasets (NASA and SpaceWeatherLive)
