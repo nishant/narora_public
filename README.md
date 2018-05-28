@@ -8,7 +8,7 @@ This is a Ruby program that reads large volumes of time series data to gain valu
 This is a collection of all of my data science projects. Visit this folder to see a readme for each project.
 
 ### Genmake ###
-Genmake is a program that searches the source code directory tree and creates/updates a makefile that can build all of the code in the source directory. It can automatically create a Makefile for any C program.
+Genmake is a C program that searches the source code directory tree and creates/updates a makefile that can build all of the code in the source directory. It can automatically create a Makefile for any C program.
 
 ### Parser/Interpreter ###
 This is a two-part project in which I implemented a lexer and parser for the SmallC language in OCaml. The parser is capable of parsing expressions, statements, and full programs by operating on a flat token list assembled by the lexer. In this project, I have written the complete pipeline to turn a text file into a running SmallC program.
