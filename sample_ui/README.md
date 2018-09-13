@@ -1,4 +1,4 @@
-## narora.xyz ##
-Contains HTML and CSS code for the homepage of my personal website.
+## Sample UI ##
+Contains HTML and CSS code for the UI of a website homepage.
 
 ![homepage](screenshots/homepage.png "Homepage of narora.xyz")
